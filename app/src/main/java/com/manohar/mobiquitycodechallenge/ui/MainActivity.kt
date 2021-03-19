@@ -8,6 +8,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.view.ActionMode
+import androidx.appcompat.widget.TooltipCompat
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.manohar.mobiquitycodechallenge.R
@@ -35,6 +36,11 @@ class MainActivity : AppCompatActivity(), BookMarksAdapter.IBookMarkClicked {
         setSupportActionBar(mainToolbar)
         setUpRecyclerView()
         bindClicks()
+        addToolTips()
+    }
+
+    private fun addToolTips() {
+        TooltipCompat.setTooltipText(fabAddBookMark, "Tap here to add a Bookmark")
     }
 
     override fun onStart() {

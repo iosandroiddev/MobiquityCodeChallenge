@@ -14,6 +14,7 @@ import android.os.Looper
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.TooltipCompat
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.GoogleMap.OnMarkerDragListener
@@ -30,6 +31,7 @@ import com.manohar.mobiquitycodechallenge.utils.hasLocationPermission
 import com.manohar.mobiquitycodechallenge.utils.showErrorSnackMessage
 import getCustomArrayListPreferenceAsynchronous
 import kotlinx.android.synthetic.main.activity_maps.*
+import kotlinx.android.synthetic.main.app_bar_home.*
 import setCustomArrayListPreferenceAsynchronous
 import java.io.IOException
 import java.util.*
