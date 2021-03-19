@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#1C86FC</color>
+    <color name="disabled">#969696</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="font_color">#3A424D</color>
+    <color name="city_color">#4ABC87</color>
+    <color name="temp_color">#FCA21C</color>
+    <color name="humidity_color">#EF4C4C</color>
+
+</resources>

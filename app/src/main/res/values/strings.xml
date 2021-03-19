@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MobiQuityCodeChallenge</string>
+    <string name="bookmark_location">Bookmark Location</string>
+    <string name="locations">BookMarked Locations</string>
+    <string name="no_bookmarks_yet">No Locations Bookmarked.\nTap on the \'+\' to bookmark location.</string>
+    <string name="bookmark_a_location">Bookmark a Location</string>
+    <string name="bookmark_this_location">BookMark this location</string>
+    <string name="location_details">Location Details</string>
+    <string name="get_forecast">Get Forecast</string>
+</resources>

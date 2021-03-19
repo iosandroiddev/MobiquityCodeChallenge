@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <data>
+
+        <variable
+            name="dataModel"
+            type="com.manohar.mobiquitycodechallenge.model.BookmarkLocationModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutBookMarkItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/bg_bookmark_item">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvLocationAddress"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_map_marker"
+            android:drawablePadding="@dimen/_4sdp"
+            android:padding="@dimen/_4sdp"
+            android:text="@{dataModel.locationName}"
+            android:textColor="@color/font_color"
+            app:layout_constraintEnd_toStartOf="@id/ivTick"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Lingampally, Hyderabad, Telagana" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivTick"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/_10sdp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/tvLocationAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvLocationAddress"
+            app:layout_constraintTop_toTopOf="@id/tvLocationAddress"
+            app:srcCompat="@drawable/ic_check_circle"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
