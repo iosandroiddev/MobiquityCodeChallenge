@@ -1,7 +1,7 @@
 # MobiquityCodeChallenge
 
 
-ScreenShots
+<h1>ScreenShots</h1>
 
 <img src="https://github.com/iosandroiddev/MobiquityCodeChallenge/blob/master/EmptyBookMarks.png" width="18%"></img>
 <img src="https://github.com/iosandroiddev/MobiquityCodeChallenge/blob/master/BookMarkDragPin.png" width="18%"></img> 
